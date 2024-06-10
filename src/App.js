@@ -4,12 +4,13 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Hero from './Pages/Hero';
 import Services from './Pages/Services'
 import Work from './Pages/Work';
+import Contact from './Pages/Contact'
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path='/' element={<Work/>} />
+        <Route path='/' element={<Contact/>} />
       </Routes>
     </BrowserRouter>
   );
