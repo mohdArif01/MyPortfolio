@@ -1,0 +1,50 @@
+.about{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.about-aboutme{
+    text-align: center;
+    padding: 20px;
+}
+
+.about-myname{
+    padding: 120px;
+    scale: 0.5;
+    margin-bottom: -50px;
+    text-align: left;
+}
+
+.about-aboutme span{
+    font-size: 15px;
+    font-weight: 600;
+    color: orangered;
+}
+
+.about-myname h1{
+    margin-top: 10px;
+    font-size: 3rem;
+}
+
+.highlights{
+    font-weight: 600;
+}
+
+.para1 p{
+    font-weight: 400;
+    color: rgb(97, 97, 97);
+    max-width: 70%;
+    text-align: left;
+    margin: 20px auto;
+    font-size: 0.9rem;
+}
+.para2 p{
+    font-weight: 400;
+    color: rgb(97, 97, 97);
+    max-width: 70%;
+    text-align: left;
+    margin: 0 auto;
+    font-size: 0.9rem;
+}

@@ -5,12 +5,13 @@ import Hero from './Pages/Hero';
 import Services from './Pages/Services'
 import Work from './Pages/Work';
 import Contact from './Pages/Contact'
+import About from './Pages/About'
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path='/' element={<Contact/>} />
+        <Route path='/' element={<About/>} />
       </Routes>
     </BrowserRouter>
   );
