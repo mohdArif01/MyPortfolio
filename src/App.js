@@ -1,13 +1,13 @@
 import './App.css';
 
-import Nav from './Components/Nav';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Hero from './Pages/Hero';
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path='/' element={<Nav/>} />
+        <Route path='/' element={<Hero/>} />
       </Routes>
     </BrowserRouter>
   );
